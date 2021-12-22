@@ -1,0 +1,85 @@
+
+How interpreter works in python ?
+--Instead of translating source code to machine code like C++, Python code it translated to bytecode.
+ex--PHP, Ruby, Python, and JavaScript.
+
+
+
+What is compiler ?
+--A compiler is a special program that processes statements written in a particular programming language and turns them into machine language or "code" that a computer's processor uses.
+
+
+
+Python features...
+--Python is a dynamic, high level, free open source and interpreted programming  language. 
+--Easy to code
+--Free and Open Source
+--Object-Oriented Language
+--GUI Programming Support
+--High-Level Language
+--Extensible feature
+--Python is Portable language
+
+
+What is dynamically typed programming language ?
+--Dynamically-typed languages are those where the interpreter assigns variables a type at runtime based on the variable's value at the time.
+
+
+Procedure Oriented vs Object oriented programming languages--
+	
+Procedural Oriented Programming--
+	Procedural Oriented Programming is a programming language that follows a step-by-step approach to break down a task into a collection of variables and routines (or subroutines) through a sequence of instructions.
+--In procedural programming, program is divided into small parts called functions.
+--Procedural programming follows top down approach.
+--There is no access specifier in procedural programming.
+--Procedural programming does not have any proper way for hiding data so it is less secure.
+--In procedural programming, function is more important than data.
+
+Object Oriented Programming--
+	Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).
+--In object oriented programming, program is divided into small parts called objects.
+--Object oriented programming follows bottom up approach.
+--Object oriented programming have access specifiers like private, public, protected etc
+--Object oriented programming provides data hiding so it is more secure.
+--In object oriented programming, data is more important than function.
+
+
+
+Different ways to run python program--
+--Interactive Mode.
+--Command Line.
+--Text Editor (VS Code)
+--IDE (PyCharm)
+
+
+What is source file ?
+--Source files contain the data that is being extracted from the source system before it's being transformed to the Common Data Format.
+
+
+cpython vs ironpyhon vs jython---
+cpython--
+It is the original Python implementation, CPython has the highest compatibility with a variety of Python packages and modules and is the best choice if users need to write code that completely matches the Python standards.
+
+Ironpython--
+IronPython is the popular Python implementation that has been written in C-Sharp (C#) and has been designed to run on the .NET platform.
+
+jpython--
+Jython is another Python implementation that has been written in the Java language whose implementation can run in Java platforms. 
+
+
+
+What is interactive progragramming ?
+--Interactive programming, also known as live coding, refers to any computer programming language that allows the creator to make changes to the program while it is running.
+
+
+
+What is high-level programming language ?
+--A high-level language is one that is user-oriented in that it has been designed to make it straightforward for a programmer to convert an algorithm into program code.
+
+
+
+
+
+
+
+

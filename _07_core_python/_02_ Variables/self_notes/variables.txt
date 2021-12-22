@@ -51,10 +51,12 @@ Python variables - Assign Multiple Values---
 Example--
 
 	x, y, z = "Orange", "Banana", "Cherry"
-	print(x)
-	print(y)
-	print(z)
+	print(x,id(x))---------------------------------Orange 1797521159344
+	print(y,id(y))---------------------------------Banana 1797521128304
+	print(z,id(z))---------------------------------Cherry 1797521158704
 	
+==>Here x,y,z all varibles has different memory locations i.e id values ,we can get the id values of  variables by using id( ).
+
 Note:-- Make sure the number of variables matches the number of values, or else you will get an error.
 
 One Value to Multiple Variables---
@@ -62,11 +64,12 @@ One Value to Multiple Variables---
 =>And you can assign the same value to multiple variables in one line:
 
 Example--
-	x = y = z = "Orange"
-	print(x)
-	print(y)
-	print(z)
-
+	a=b=c="India"
+	print(a,id(a))--------------------India 2163233635120
+	print(b,id(b))-------------------India 2163233635120
+	print(c,id(c))--------------------India 2163233635120
+	
+==>Here id values of all variables is same.
 
 Unpack a Collection---
 
@@ -77,8 +80,21 @@ Example---
 Unpack a list:--
 
 	fruits = ["apple", "banana", "cherry"]
-	x, y, z = fruits
-	print(x)
-	print(y)
-	print(z)
+	p=q=r = fruits
+	print(p,id(p))------------------------- ["apple", "banana", "cherry"] 2005466166720
+	print(q,id(q))------------------------- ["apple", "banana", "cherry"] 2005466166720
+	print(r,id(r))--------------------------- ["apple", "banana", "cherry"] 2005466166720
+	print(r[0],id(r[0]))-------------------------apple 2018267085616
+	print(p[0],id(r[0]))-------------------------apple 2018267085616
+	print(p[1],id(p[1]))------------------------banana 2018267116720
+	print(r[1],id(r[1]))-------------------------banana 2018267116720
+
+==>Here id value of every variable is same but each element in list is different.
+
+
+
+
+
+
+
 
