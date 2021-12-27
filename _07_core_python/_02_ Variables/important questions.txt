@@ -1,0 +1,28 @@
+What is a TOKEN----
+==>Token is a smallest unit inside the given program and it can be defined as a punctuator mark,reserved key and each individual in a statement.
+
+How many tokens are in python and what are they------
+==>There are five types of tokens in python.
+	1) Identifier,
+	2)Operetor,
+	3)Literals,
+	4)Keywords,
+	5)Constant.
+
+What is an identifier------
+==>An identifier is a variable name.A pyhton identifier is a name used to identify a variable,function name,class name,module nameor any object name.
+
+
+What is an operator------
+==>Any special symbol in python which can do arithmetic or logical computations is called operator.
+
+
+What is a literal----
+==>Any fixed value in source code is called as a literal.
+==>And a literal can be any type of datatype.
+
+What is a keyword------
+==>Keywords are also called as reserved words and they have a specific meaning in a language.
+
+What is a constant-----
+==>Constant is a type of variable whose value cannot be changed.
