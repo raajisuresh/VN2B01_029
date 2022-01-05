@@ -202,7 +202,7 @@ Data types:
 
 Types of languages in sql/ postgresql  commands
 
-1.DDl - Data Defination Language
+1.DDL - Data Defination Language
   create: create table <name> (name varchar(30), age integer)
   alter: alter table  which makes add or delete columns
   drop : removes the entire table from data base
