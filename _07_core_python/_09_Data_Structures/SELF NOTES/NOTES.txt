@@ -1,0 +1,234 @@
+Data Structures--
+------------------
+	1)String,
+	2)List,
+	3)Tuple,
+	4)Dictionary,
+	5)Set.
+1)String :--
+----------
+>>Strings in python are surrounded by either single quotation marks, or double quotation marks.
+>>'hello' is the same as "hello".
+
+Assign String to a Variable-------
+>>Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
+
+Example-----
+	>>a = "Hello"
+	>>print(a)-----------------------Hello
+
+Multiline Strings-------
+>>You can assign a multiline string to a variable by using three quotes.
+
+Example-----
+	>>a = """You can assign a multiline string 
+		to a variable by using three quotes"""
+	>>print(a)-------------------------------------------------You can assign a multiline string to a variable by using three quotes
+
+Looping in strings--
+---------------------
+
+Example----
+	>>for x in "YASHWIK SRINIVAS" :
+	>>	print(x,end=",")-----------------------Y,A,S,H,W,I,K, ,S,R,I,N,I,V,A,S
+
+
+	>>str="RAJESWARI"
+	>>i=0
+	>>while i<len(str) :
+	>>	print(str[i],end=",")
+	>>	i+=1--------------------------------R,A,J,E,S,W,A,R,I
+
+String Indexing and slicing--
+-------------------------------
+
+String Indexing------
+
+>>We can get a desired element or character of a particular stirng by using "Indexing".
+>>We have two types of indexing .
+	1)Forward Indexing,
+	2)Negative indexing.
+1)Forward Indexing----
+>>In forward indexing the index starts with '0' and ends with 'n-1'.
+>>Here the default step size is '1'.
+Example---------
+	>>str="YASHWIK"
+	>>print(str[2])-----------------------S
+	>>print(str[4])-----------------------W
+2)Negative Indexing----
+>>In negative indexing the index starts with "-1" and ends with "-n".
+Example-----------
+	>>str="YASHWIK"
+	>>print(str[-2])-----------------------I
+	>>print(str[-5])-----------------------S
+
+	
+String slicing----------
+
+>>By string slicing we can get a group of elements or characters.
+>>We have two type of slicing
+
+1)Forward slicing----
+>>In forward slicingthe index starts with '0' and ends with 'n-1'.
+>>Here the default step size is '1'.
+Example---------
+	>>str="yashwik"
+	>>print(str[0:4])-------------------------------yash
+	>>print(str[:])----------------------------------yashwik
+	>>print(str[0:])--------------------------------yashwik
+	>>print(str[:7])--------------------------------yashwik
+	>>print(str[::2])-------------------------------yswk
+
+2)Negative slicing---------
+>>In negative sicingthe index starts with "-1" and ends with "-n".
+>>Here the default step size is '1'.
+Example----------
+	>>str='suresh'
+	>>print(str2[-5:-1])------------------ures
+	>>print(str2[-6:])---------------------suresh
+	>>print(str2[::-1])--------------------hserus
+	>>print(str2[-6::2])-------------------ueh
+
+	Method		Description
+	---------		---------------
+	capitalize()		Converts the first character to upper case
+
+	casefold()		Converts string into lower case
+
+	center()		Returns a centered string
+
+	count()		Returns the number of times a specified value occurs in a string
+
+	encode()		Returns an encoded version of the string
+
+	endswith()		Returns true if the string ends with the specified value
+
+	expandtabs()	Sets the tab size of the string
+
+	find()		Searches the string for a specified value and returns the position of where it was found
+
+	format()		Formats specified values in a string
+
+	format_map()	Formats specified values in a string
+
+	index()		Searches the string for a specified value and returns the position of where it was found
+
+	isalnum()		Returns True if all characters in the string are alphanumeric
+
+	isalpha()		Returns True if all characters in the string are in the alphabet
+
+	isdecimal()		Returns True if all characters in the string are decimals
+
+	isdigit()		Returns True if all characters in the string are digits
+
+	isidentifier()	Returns True if the string is an identifier
+
+	islower()		Returns True if all characters in the string are lower case
+
+	isnumeric()	Returns True if all characters in the string are numeric
+
+	isprintable()	Returns True if all characters in the string are printable
+
+	isspace()		Returns True if all characters in the string are whitespaces
+
+	istitle()		Returns True if the string follows the rules of a title
+
+	isupper()		Returns True if all characters in the string are upper case
+
+	join()		Joins the elements of an iterable to the end of the string
+
+	ljust()		Returns a left justified version of the string
+
+	lower()		Converts a string into lower case
+
+	lstrip()		Returns a left trim version of the string
+
+	maketrans()	Returns a translation table to be used in translations
+
+	partition()		Returns a tuple where the string is parted into three parts
+
+	replace()		Returns a string where a specified value is replaced with a specified value
+
+	rfind()		Searches the string for a specified value and returns the last position of where it was found
+
+	rindex()		Searches the string for a specified value and returns the last position of where it was found
+
+	rjust()		Returns a right justified version of the string
+
+	rpartition()		Returns a tuple where the string is parted into three parts
+
+	rsplit()		Splits the string at the specified separator, and returns a list
+
+	rstrip()		Returns a right trim version of the string
+
+	split()		Splits the string at the specified separator, and returns a list
+
+	splitlines()		Splits the string at line breaks and returns a list
+
+	startswith()		Returns true if the string starts with the specified value
+
+	strip()		Returns a trimmed version of the string
+
+	swapcase()		Swaps cases, lower case becomes upper case and vice versa
+
+	title()		Converts the first character of each word to upper case
+
+	translate()		Returns a translated string
+
+	upper()		Converts a string into upper case
+
+	zfill()		Fills the string with a specified number of 0 values at the beginning	
+
+				
+	
+					------------X-----X-----X-----X-----X-----------------
+
+2)List--------
+-------
+
+>>Lists are used to store multiple items ,which can be homogeneous or hetrogeneous type in a single variable.
+>>List is one of the pre-defined class.
+>>An object of list allows us to store multiple values of same type or different type or both types.
+>>An object of list type allows us to organize both unique and duplicate values.
+>>The elements of list must be enclosed within Square Brackets [ ] and the values must be separated by comma (;)
+>>An object of list maintains insertion order.
+>>On the object of list , we can perform both indexing and sclicing.
+>>An object of list is Mutable.
+>>To convert one type values into list type values , we use list()
+
+Example--- 
+	>>l1=[]         (or)   >>>l1=list()
+	>>print(l1)---------------------------------------------- [ ] <----empty list
+	>>l1=[10,20,10,15,-23]
+	>>print(l1, type(l1))------------------------------------[10,20,10,15,-23]  <class,'list'>
+
+List Methods-----
+
+>>Python has a set of built-in methods that you can use on lists.
+
+		Method		Description
+		----------		--------------	
+		append()		Adds an element at the end of the list
+
+		clear()		Removes all the elements from the list
+
+		copy()		Returns a copy of the list
+
+		count()		Returns the number of elements with the specified value
+
+		extend()		Add the elements of a list (or any iterable), to the end of the current list
+
+		index()		Returns the index of the first element with the specified value
+
+		insert()		Adds an element at the specified position
+
+		pop()		Removes the element at the specified position
+
+		remove()		Removes the item with the specified value
+
+		reverse()		Reverses the order of the list
+
+		sort()		Sorts the list
+
+
+
