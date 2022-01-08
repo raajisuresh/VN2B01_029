@@ -180,8 +180,9 @@ Example----------
 	zfill()		Fills the string with a specified number of 0 values at the beginning	
 
 				
-	
-					------------X-----X-----X-----X-----X-----------------
+				
+			-----------------X-----X-----X-----X-----X-----------------
+
 
 2)List--------
 -------
@@ -229,6 +230,64 @@ List Methods-----
 		reverse()		Reverses the order of the list
 
 		sort()		Sorts the list
+
+
+			-----------------X-----X-----X-----X-----X-----------------
+
+
+3)Tuple-----
+---------
+>>'tuple' is one of the pre-defined class
+>>An object of tuple allows us to store multiple values of same type or different type or both types.
+>>An object of tuple type allows us to organize both unique and duplicate values.
+>>The elements of tuple must be enclosed within Braces () and the values must be separated by comma (,)
+>>An object of tuple maintains insertion order.
+>>On the object of tuple , we can perform both indexing and sclicing.
+>>An object of tuple is Immutable.
+>>To convert one type values into tuple type values , we use tuple()
+>>Empty tuple object can be created as follows :
+
+	Example---- 
+		>>tp=()         (or)   >>tp=tuple()
+		>>print(tp)--------------------------------- () <----empty tuple
+		>>tp1=(10,"Hyd",34.56)
+		>>print(tp1, type(tp1))-------------------(10,"Hyd",34.56) <class,"tuple">
+		>>tp2=(10)
+		>>print(tp2,type(tp2))----------------------10 <class,"int">
+		>>tp3=(10,)
+		>>print(tp3,type(tp3))----------------------(10) <class,"tuple">
+
+Note:- On tuple  object, we use index() and count() of List object but not other functions of list bcoz tuple object belongs to immutable
+
+Tuple Methods-----
+
+>>Python has two built-in methods that you can use on tuples.
+
+	Method		Description
+	---------		--------------
+	count()		Returns the number of times a specified value occurs in a tuple
+
+	index()		Searches the tuple for a specified value and returns the position of where it was found
+
+
+Differences between list and tuple-----
+
+			LIST	                                         	 	TUPLE
+			------					-----------
+
+		1.Lists are mutable	                      		1. Tuples are immutable
+
+		2.Implication of iterations is Time-consuming	 	2.The implication of iterations is comparatively Faster
+
+		3.The list is better for performing operations,      	3.Tuple data type is appropriate for accessing the elements
+		    such as insertion and deletion.
+
+		4.Lists consume more memory	                    	4.Tuple consume less memory as compared to the list
+
+		5.Lists have several built-in methods	 	5.Tuple does not have many built-in methods.
+
+		6.The unexpected changes and errors are more     	6.In tuple, it is hard to take place
+  		    likely to occur
 
 
 
