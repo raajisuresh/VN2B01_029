@@ -1,0 +1,41 @@
+
+Python Function----
+_____________
+
+=>A function can be defined as the organized block of reusable code, which can be called whenever required.
+=>Python allows us to divide a large program into the basic building blocks known as a function.
+=>A function can be called multiple times to provide reusability and modularity to the Python program.
+
+There are mainly two types of functions.
+
+	1)User-define functions ---
+		>The user-defined functions are those define by the user to perform the specific task.
+	2)Built-in functions --
+		>The built-in functions are those functions that are pre-defined in Python.
+		>Python provide us various inbuilt functions like range() or print()
+
+Advantage of Functions in Python----
+
+=>Using functions, we can avoid rewriting the same logic/code again and again in a program.
+=>We can call Python functions multiple times in a program and anywhere in a program.
+=>We can track a large Python program easily when it is divided into multiple functions.
+=>Reusability is the main achievement of Python functions.
+
+Creating a Function-----
+______________
+
+Syntax:
+
+Function Defination---
+
+	def my_function(parameters):  
+	    function_block  
+	return expression  
+
+Function calling---
+	
+	my_function(arguments)
+
+
+=>A parameter is the variable listed inside the parentheses in the function definition.
+=>An argument is the value that is sent to the function when it is called.

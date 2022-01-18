@@ -50,7 +50,7 @@ print("_"*30)
 list3=['ab','de','qr','q','cf','c']
 list2=['a','d','r','q','f','c']
 list2.sort()                                #sorts in ascending order
-print(list2)
+print("sort",list2)
 list3.sort(reverse=True)                    #sorts in descending order
 print(list3)
 print("_"*30)
