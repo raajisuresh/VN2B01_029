@@ -1,0 +1,98 @@
+OOPs-----
+_____
+
+=>The Object Oriented Priciples in Python are:
+
+		1. Classes
+		2. Objects
+		3. Data Encapsulation
+		4. Data Abstraction
+		5. Inheritance
+		6. Polymorphism
+Classes----
+_____
+
+=>The purpose of Classes concept is that "To Develop Programmer-defined data Type and To Develop Real Time Applications ".
+=>The pupose of Programmer-defined data Type is that to store multiple values either of same type or different type or the both types.
+=>To develop programmer-defined data type with classes concept, we use a keyword called     "class".
+=>Each and Every Meanigful applications in Python must be developed by using classes concept.
+
+Def. of Class---
+_________
+=>A class is a collection of Data Members(Instance Data memebrs and Class Level Data Members) and Methods.
+=>Here "Data Members" of Class are used for Storing data in the objects(bcoz Data members of Class are available as it is as part of object)
+=>"Methods" of class are used for performing Operations(If we write a Function inside class then those functions are called Methods).
+
+Types of Methods in a Class of Python-----
+____________________________		
+=>In python programming, we have 3 types of methods. They are
+			
+			1) Instance Methods
+			2) Class Level Methods
+			3) Static Methods
+
+1) Instance Methods---
+______________
+=>These methods are used for performing specific operations on objects.
+=>These methods can do the  operations only on objects and hence these methods are called Object Level Methods.
+=>Instance methods Must written inside of calss definition by taking "self" as a first formal     parameter.
+=>Instance Methods must be accesses w.r.t object name (or) w.r.t self
+			objectname.Instancemethodname()
+					(or)
+			self.Instancemethodname()
+
+=>Instance Methods can also call other type of methods.
+
+2) Class Level Methods---
+_________________
+=>These methods are used for performing Class Level / Common operations related the corresponding class 
+=>These methods can do the  operations only on Class Level Data Members and hence these methods are called Class Level Methods.
+=>The class level method must take "cls" as a First Formal Parameter and whose definition must be preceded with a pre-defined decorator called @classmethod
+=>The class level method must be accessed w.r.t class name (OR) object name
+				classname.classlevel methodname()
+						(OR)
+				Object Name.classlevel methodname()
+
+3) Static Methods---
+_____________
+=>These methods are used for performing Utility operations / Independent Operations without considering the context corresponding class 
+=>These methods can do the  operations on any class object and performs independent operations and they are called static methods.
+=>The static methods never takes  "cls" (or) "self"  as a First Formal Parameter and whose definition must be preceded with a pre-defined decorator called @staticmethod
+=>The static method must be accessed w.r.t class name (OR) object name
+				classname.static methodname()
+						(OR)
+				Object Name.static methodname()
+
+
+
+						OBJECTS
+						________
+
+=>When we define a class, we don't get any memory for the data members(Instance Memebrs) and methods(Instance Methods) but whose memory space is created when we create an object.
+=>To do any Data Processsing, We must create an object. In other words, without creating any object, we can't do any meaningful operations.
+=>Programatically, to create an object , There must exists class definition otherwise we get Error.
+
+
+
+Inheritance---
+________
+
+=>The main purpose of Inheritance principle is that to build Re-usable applications across the Class and Programs
+
+Def.. of Inheritance---
+_______________
+=>The process of obtaining the data memebrs and methods(features) from one class into another class is called Inheritance
+=>The Class which is giving data members and methods is called Base / super / parent class
+=>The class which is taking data memebrs and Methods is called Derived / sub / child class
+=>Inheritance concept always follows Logical Memory Management.
+=>This Memory Management Says "Neither we write Physical Source Code nor It takes Physical Memory Space"
+
+Advatanges of Inheritance---
+___________________
+
+=>If we develop any python application with the concept of inheritance, we get the following advantages.
+		1. Application Development time is Less
+		2. Application memory Space is Less
+		3. Application Execution time is Less
+		4. Application Performance is Enhanced (Improved)
+		5. Redundency (duplication / replication / repetation) of the Code is Minimized.
