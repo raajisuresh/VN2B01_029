@@ -47,7 +47,6 @@ class MyClass:
 p1 = MyClass()
 print(p1.x)
 
-
 The __init__() Function (constructor)
 ---------------------------------
 All classes have a function called __init__(), which is always executed when the class is being initiated.
